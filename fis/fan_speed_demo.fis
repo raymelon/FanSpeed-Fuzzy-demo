@@ -23,8 +23,8 @@ MF3='hot':'trimf',[50 100 100]
 Name='clock_speed'
 Range=[0 4]
 NumMFs=3
-MF1='low':'trimf',[0 0 1.6]
-MF2='normal':'trimf',[0.4 2 3.6]
+MF1='low':'trimf',[0 0 1.5]
+MF2='normal':'trimf',[0.5 2 3.5]
 MF3='turbo':'trimf',[2.5 4 4]
 
 [Output1]
