@@ -1,5 +1,5 @@
 # FanSpeed-Fuzzy-demo
-Demo of a Fuzzy Logic-based Fan Speed Controller
+Demo of a Fuzzy Logic-based CPU Fan Speed Controller
 
 | [MATLAB](https://www.mathworks.com/videos/whats-new-in-matlab-in-r2015b-and-r2016a-120995.html) | ![](https://cdn.rawgit.com/raymelon/EmergencyResponseUnitLocator/b62eda41/misc/MALTAB-R2015b-orange.svg) |
 |-|-|
@@ -16,7 +16,7 @@ The ranges used are calibrated based on the current computer models, thus these 
 | Clock speed frequency | Gigahertz (GHz) | 0 to 4 |
 | Fan speed | Revolutions per minute (RPM) | 0 to 6000 |
 
-## Membership Functions
+## Fuzzy Membership Functions
 
 #### Core Temperature
 ![](https://github.com/raymelon/FanSpeed-Fuzzy-demo/blob/master/fis/coretemp.JPG)
@@ -28,7 +28,7 @@ The ranges used are calibrated based on the current computer models, thus these 
 ![](https://github.com/raymelon/FanSpeed-Fuzzy-demo/blob/master/fis/fanspeed.JPG)
 
 
-## Rules
+## Fuzzy Rules
 
 | Core Temperature | | Clock Speed | | Fan Speed |
 |-|-|-|-|-|
